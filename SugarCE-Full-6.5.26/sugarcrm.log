@@ -1,0 +1,212 @@
+12/13/22 03:49:39 [18568][-none-][FATAL] SECURITY: User authentication for admin failed
+12/13/22 03:49:39 [18568][-none-][FATAL] FAILED LOGIN:attempts[1] - admin
+12/13/22 03:49:46 [18568][-none-][FATAL] SECURITY: User authentication for admin failed
+12/13/22 03:49:46 [18568][-none-][FATAL] FAILED LOGIN:attempts[2] - admin
+12/13/22 03:51:35 [18568][-none-][FATAL] SECURITY: User authentication for admin failed
+12/13/22 03:51:35 [18568][-none-][FATAL] FAILED LOGIN:attempts[3] - admin
+12/14/22 13:34:12 [18568][1][FATAL]  Query Failed: select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 2ef8e63b-5c3e-4689-3665-63996ca15241 LIMIT 0,1: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:34:12 [18568][1][FATAL]  Get One Failed:select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 2ef8e63b-5c3e-4689-3665-63996ca15241: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:36:32 [18568][1][FATAL]  Query Failed: select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 2ef8e63b-5c3e-4689-3665-63996ca15241 LIMIT 0,1: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:36:32 [18568][1][FATAL]  Get One Failed:select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 2ef8e63b-5c3e-4689-3665-63996ca15241: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:39:25 [18568][1][FATAL]  Query Failed: select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 79e313bd-51b7-4356-a013-63996f3f8cd3 LIMIT 0,1: MySQL error 1367: Illegal double '79e313' value found during parsing
+12/14/22 13:39:25 [18568][1][FATAL]  Get One Failed:select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 79e313bd-51b7-4356-a013-63996f3f8cd3: MySQL error 1367: Illegal double '79e313' value found during parsing
+12/14/22 13:39:25 [18568][1][FATAL]  Query Failed: select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 79e313bd-51b7-4356-a013-63996f3f8cd3 LIMIT 0,1: MySQL error 1367: Illegal double '79e313' value found during parsing
+12/14/22 13:39:25 [18568][1][FATAL]  Get One Failed:select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 79e313bd-51b7-4356-a013-63996f3f8cd3: MySQL error 1367: Illegal double '79e313' value found during parsing
+12/14/22 13:39:25 [18568][1][FATAL]  Query Failed: select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 79e313bd-51b7-4356-a013-63996f3f8cd3 LIMIT 0,1: MySQL error 1367: Illegal double '79e313' value found during parsing
+12/14/22 13:39:25 [18568][1][FATAL]  Get One Failed:select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 79e313bd-51b7-4356-a013-63996f3f8cd3: MySQL error 1367: Illegal double '79e313' value found during parsing
+12/14/22 13:39:29 [18568][1][FATAL]  Query Failed: select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 622300ad-2147-3712-53d9-63996f6c0520 LIMIT 0,1: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:39:29 [18568][1][FATAL]  Get One Failed:select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 622300ad-2147-3712-53d9-63996f6c0520: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:39:29 [18568][1][FATAL]  Query Failed: select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 622300ad-2147-3712-53d9-63996f6c0520 LIMIT 0,1: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:39:29 [18568][1][FATAL]  Get One Failed:select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 622300ad-2147-3712-53d9-63996f6c0520: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:39:29 [18568][1][FATAL]  Query Failed: select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 622300ad-2147-3712-53d9-63996f6c0520 LIMIT 0,1: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:39:29 [18568][1][FATAL]  Get One Failed:select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = 622300ad-2147-3712-53d9-63996f6c0520: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:39:31 [18568][1][FATAL]  Query Failed: select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = e1fb40ba-c5b3-d1c3-0fb0-63996f0964da LIMIT 0,1: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:39:31 [18568][1][FATAL]  Get One Failed:select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = e1fb40ba-c5b3-d1c3-0fb0-63996f0964da: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:39:31 [18568][1][FATAL]  Query Failed: select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = e1fb40ba-c5b3-d1c3-0fb0-63996f0964da LIMIT 0,1: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:39:31 [18568][1][FATAL]  Get One Failed:select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = e1fb40ba-c5b3-d1c3-0fb0-63996f0964da: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:39:31 [18568][1][FATAL]  Query Failed: select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = e1fb40ba-c5b3-d1c3-0fb0-63996f0964da LIMIT 0,1: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:39:31 [18568][1][FATAL]  Get One Failed:select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and b_list.id = e1fb40ba-c5b3-d1c3-0fb0-63996f0964da: MySQL error 1054: Unknown column 'b_list.id' in 'where clause'
+12/14/22 13:43:03 [18568][1][FATAL]  Query Failed: select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 258966f2-8e43-5b87-f1b7-63997090e802 LIMIT 0,1: MySQL error 1367: Illegal double '63997090e802' value found during parsing
+12/14/22 13:43:03 [18568][1][FATAL]  Get One Failed:select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 258966f2-8e43-5b87-f1b7-63997090e802: MySQL error 1367: Illegal double '63997090e802' value found during parsing
+12/14/22 13:43:03 [18568][1][FATAL]  Query Failed: select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 258966f2-8e43-5b87-f1b7-63997090e802 LIMIT 0,1: MySQL error 1367: Illegal double '63997090e802' value found during parsing
+12/14/22 13:43:03 [18568][1][FATAL]  Get One Failed:select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 258966f2-8e43-5b87-f1b7-63997090e802: MySQL error 1367: Illegal double '63997090e802' value found during parsing
+12/14/22 13:43:03 [18568][1][FATAL]  Query Failed: select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 258966f2-8e43-5b87-f1b7-63997090e802 LIMIT 0,1: MySQL error 1367: Illegal double '63997090e802' value found during parsing
+12/14/22 13:43:03 [18568][1][FATAL]  Get One Failed:select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 258966f2-8e43-5b87-f1b7-63997090e802: MySQL error 1367: Illegal double '63997090e802' value found during parsing
+12/14/22 13:43:10 [18568][1][FATAL]  Query Failed: select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and list.id = c86d1017-d5df-f62b-30ef-6399709bb8a5 LIMIT 0,1: MySQL error 1054: Unknown column 'c86d1017' in 'where clause'
+12/14/22 13:43:10 [18568][1][FATAL]  Get One Failed:select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and list.id = c86d1017-d5df-f62b-30ef-6399709bb8a5: MySQL error 1054: Unknown column 'c86d1017' in 'where clause'
+12/14/22 13:43:10 [18568][1][FATAL]  Query Failed: select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = c86d1017-d5df-f62b-30ef-6399709bb8a5 LIMIT 0,1: MySQL error 1054: Unknown column 'c86d1017' in 'where clause'
+12/14/22 13:43:10 [18568][1][FATAL]  Get One Failed:select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = c86d1017-d5df-f62b-30ef-6399709bb8a5: MySQL error 1054: Unknown column 'c86d1017' in 'where clause'
+12/14/22 13:43:10 [18568][1][FATAL]  Query Failed: select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = c86d1017-d5df-f62b-30ef-6399709bb8a5 LIMIT 0,1: MySQL error 1054: Unknown column 'c86d1017' in 'where clause'
+12/14/22 13:43:10 [18568][1][FATAL]  Get One Failed:select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = c86d1017-d5df-f62b-30ef-6399709bb8a5: MySQL error 1054: Unknown column 'c86d1017' in 'where clause'
+12/14/22 13:52:19 [18568][1][FATAL]  Query Failed: select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 361e7e1a-40b5-0092-0ff9-639972dd3faf LIMIT 0,1: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e1a-40b5-0092-0ff9-639972dd3faf LIMIT 0,1' at line 1
+12/14/22 13:52:19 [18568][1][FATAL]  Get One Failed:select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 361e7e1a-40b5-0092-0ff9-639972dd3faf: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e1a-40b5-0092-0ff9-639972dd3faf LIMIT 0,1' at line 1
+12/14/22 13:52:19 [18568][1][FATAL]  Query Failed: select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 361e7e1a-40b5-0092-0ff9-639972dd3faf LIMIT 0,1: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e1a-40b5-0092-0ff9-639972dd3faf LIMIT 0,1' at line 1
+12/14/22 13:52:19 [18568][1][FATAL]  Get One Failed:select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 361e7e1a-40b5-0092-0ff9-639972dd3faf: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e1a-40b5-0092-0ff9-639972dd3faf LIMIT 0,1' at line 1
+12/14/22 13:52:19 [18568][1][FATAL]  Query Failed: select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 361e7e1a-40b5-0092-0ff9-639972dd3faf LIMIT 0,1: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e1a-40b5-0092-0ff9-639972dd3faf LIMIT 0,1' at line 1
+12/14/22 13:52:19 [18568][1][FATAL]  Get One Failed:select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 361e7e1a-40b5-0092-0ff9-639972dd3faf: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e1a-40b5-0092-0ff9-639972dd3faf LIMIT 0,1' at line 1
+12/14/22 13:52:31 [18568][1][FATAL]  Query Failed: select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 8bed9961-dcba-4d3a-e7d6-63997283210d LIMIT 0,1: MySQL error 1054: Unknown column '8bed9961' in 'where clause'
+12/14/22 13:52:31 [18568][1][FATAL]  Get One Failed:select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 8bed9961-dcba-4d3a-e7d6-63997283210d: MySQL error 1054: Unknown column '8bed9961' in 'where clause'
+12/14/22 13:52:31 [18568][1][FATAL]  Query Failed: select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 8bed9961-dcba-4d3a-e7d6-63997283210d LIMIT 0,1: MySQL error 1054: Unknown column '8bed9961' in 'where clause'
+12/14/22 13:52:31 [18568][1][FATAL]  Get One Failed:select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 8bed9961-dcba-4d3a-e7d6-63997283210d: MySQL error 1054: Unknown column '8bed9961' in 'where clause'
+12/14/22 13:52:31 [18568][1][FATAL]  Query Failed: select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 8bed9961-dcba-4d3a-e7d6-63997283210d LIMIT 0,1: MySQL error 1054: Unknown column '8bed9961' in 'where clause'
+12/14/22 13:52:31 [18568][1][FATAL]  Get One Failed:select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = 8bed9961-dcba-4d3a-e7d6-63997283210d: MySQL error 1054: Unknown column '8bed9961' in 'where clause'
+12/14/22 13:57:06 [18568][1][FATAL]  Query Failed: select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id} LIMIT 0,1: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 13:57:06 [18568][1][FATAL]  Get One Failed:select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id}: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 13:57:06 [18568][1][FATAL]  Query Failed: select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id} LIMIT 0,1: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 13:57:06 [18568][1][FATAL]  Get One Failed:select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id}: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 13:57:06 [18568][1][FATAL]  Query Failed: select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id} LIMIT 0,1: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 13:57:06 [18568][1][FATAL]  Get One Failed:select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id}: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 13:57:15 [18568][1][FATAL]  Query Failed: select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id} LIMIT 0,1: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 13:57:15 [18568][1][FATAL]  Get One Failed:select list.list_product_quantity from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id}: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 13:57:15 [18568][1][FATAL]  Query Failed: select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id} LIMIT 0,1: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 13:57:15 [18568][1][FATAL]  Get One Failed:select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id}: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 13:57:15 [18568][1][FATAL]  Query Failed: select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id} LIMIT 0,1: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 13:57:15 [18568][1][FATAL]  Get One Failed:select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id}: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 14:10:55 [18568][1][FATAL]  Query Failed: select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id} LIMIT 0,1: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 14:10:55 [18568][1][FATAL]  Get One Failed:select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id}: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 14:10:55 [18568][1][FATAL]  Query Failed: select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id} LIMIT 0,1: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 14:10:55 [18568][1][FATAL]  Get One Failed:select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id}: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 14:11:06 [18568][1][FATAL]  Query Failed: select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id} LIMIT 0,1: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 14:11:06 [18568][1][FATAL]  Get One Failed:select product.product_id from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id}: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 14:11:06 [18568][1][FATAL]  Query Failed: select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id} LIMIT 0,1: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/14/22 14:11:06 [18568][1][FATAL]  Get One Failed:select product.product_price from b_list list, b_product product where list.b_product_id_c = product.id and list.id = {$bean->id}: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '->id} LIMIT 0,1' at line 1
+12/15/22 08:32:08 [18568][1][FATAL]  Query Failed: UPDATE b_receipt set receipt_original_price = '0' where '68c3a4b1-61c9-c6b2-b035-639a24b80940': MySQL error 1292: Truncated incorrect INTEGER value: '68c3a4b1-61c9-c6b2-b035-639a24b80940'
+12/15/22 10:30:00 [18568][1][FATAL] ERROR: rmdir_recursive(): argument custom/modulebuilder/packages/Baitap is not a file or a dir.
+12/15/22 13:37:41 [18568][1][FATAL]  Query Failed: select pro.name, pro.product_price, list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = '': MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/15/22 13:39:09 [18568][1][FATAL]  Query Failed: select pro.name, pro.product_price, list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = '': MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/15/22 13:39:33 [18568][1][FATAL]  Query Failed: select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = '': MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/15/22 13:39:42 [18568][1][FATAL]  Query Failed: select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = '': MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/15/22 13:40:19 [18568][1][FATAL]  Query Failed: select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = '': MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/15/22 13:40:46 [18568][1][FATAL]  Query Failed: select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = 'f3fef9d2-7ed6-9c31-0d13-639ac0fa1f14': MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/15/22 14:12:12 [28012][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+12/15/22 14:12:18 [28012][1][FATAL] IP Address mismatch: SESSION IP: ::1 CLIENT IP: 127.0.0.1
+12/15/22 14:12:25 [28012][-none-][FATAL] SECURITY: User authentication for admin failed
+12/15/22 14:12:25 [28012][-none-][FATAL] FAILED LOGIN:attempts[1] - admin
+12/15/22 14:29:35 [24944][1][FATAL] IP Address mismatch: SESSION IP: 127.0.0.1 CLIENT IP: ::1
+12/15/22 14:29:59 [24944][1][FATAL]  Query Failed: select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = 'f3fef9d2-7ed6-9c31-0d13-639ac0fa1f14': MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/15/22 14:31:12 [24944][1][FATAL]  Query Failed: select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = 'f3fef9d2-7ed6-9c31-0d13-639ac0fa1f14' LIMIT 0,1: MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/15/22 14:31:12 [24944][1][FATAL]  Get One Failed:select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = 'f3fef9d2-7ed6-9c31-0d13-639ac0fa1f14': MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/15/22 14:31:24 [24944][1][FATAL]  Query Failed: select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = 'ef56f06e-f5e3-2b8b-bee0-639acd3e533b' LIMIT 0,1: MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/15/22 14:31:24 [24944][1][FATAL]  Get One Failed:select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = 'ef56f06e-f5e3-2b8b-bee0-639acd3e533b': MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/15/22 14:57:01 [24944][1][FATAL] ERROR: There was an error during your upload, please contact an administrator for help.
+12/15/22 14:57:47 [24944][1][FATAL] ERROR: There was an error during your upload, please contact an administrator for help.
+12/15/22 15:22:14 [24944][1][FATAL]  Query Failed: select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = '47720657-1bc7-9553-6fed-639ad9f49edb' LIMIT 0,1: MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/15/22 15:22:14 [24944][1][FATAL]  Get One Failed:select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = '47720657-1bc7-9553-6fed-639ad9f49edb': MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/16/22 22:34:09 [8776][1][FATAL]  Query Failed: select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = '' LIMIT 0,1: MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/16/22 22:34:09 [8776][1][FATAL]  Get One Failed:select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = '': MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/16/22 22:46:05 [8776][1][FATAL]  Query Failed: select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = '' LIMIT 0,1: MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/16/22 22:46:05 [8776][1][FATAL]  Get One Failed:select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = '': MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/16/22 22:48:28 [8776][1][FATAL]  Query Failed: select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = '' LIMIT 0,1: MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/16/22 22:48:28 [8776][1][FATAL]  Get One Failed:select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = '': MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/16/22 22:49:42 [8776][1][FATAL]  Query Failed: select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = '77e48a1b-85d0-e255-c4a5-639c8f369c3b' LIMIT 0,1: MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/16/22 22:49:42 [8776][1][FATAL]  Get One Failed:select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro
+			where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb
+			and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id
+			and list.b_product_id_c = pro.id
+			and list.deleted = 0
+			and invoice.id = '77e48a1b-85d0-e255-c4a5-639c8f369c3b': MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/16/22 22:50:43 [8776][1][FATAL]  Query Failed: select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id and list.b_product_id_c = pro.id and list.deleted = 0 and invoice.id = '77e48a1b-85d0-e255-c4a5-639c8f369c3b' LIMIT 0,1: MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/16/22 22:50:43 [8776][1][FATAL]  Get One Failed:select list.list_product_quantity from b_invoice invoice, b_list_b_receipt_c, b_list list, b_product pro where invoice.b_receipt_id_c = b_list_b_receipt_c.b_list_b_receiptb_list_idb and b_list_b_receipt_c.b_list_b_receiptb_list_ida = list.id and list.b_product_id_c = pro.id and list.deleted = 0 and invoice.id = '77e48a1b-85d0-e255-c4a5-639c8f369c3b': MySQL error 1054: Unknown column 'b_list_b_receipt_c.b_list_b_receiptb_list_ida' in 'where clause'
+12/23/22 16:37:39 [3460][1][FATAL] Executing repair query:  Query Failed: ALTER TABLE b_receipt   add COLUMN receipt_product_total varchar(255)  DEFAULT '0' NULL: MySQL error 1060: Duplicate column name 'receipt_product_total'
+12/24/22 07:59:09 [3460][1][FATAL] Executing repair query:  Query Failed: ALTER TABLE b_list   add COLUMN temp int(255)  NULL: MySQL error 1060: Duplicate column name 'temp'

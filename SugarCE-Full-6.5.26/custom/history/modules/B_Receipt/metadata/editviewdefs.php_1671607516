@@ -1,0 +1,73 @@
+<?php
+$module_name = 'B_Receipt';
+$viewdefs [$module_name] = 
+array (
+  'EditView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => false,
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 'name',
+          1 => 
+          array (
+            'name' => 'receipt_address',
+            'label' => 'LBL_RECEIPT_ADDRESS',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'customer_relate_receipt',
+            'studio' => 'visible',
+            'label' => 'LBL_CUSTOMER_RELATE_RECEIPT',
+          ),
+          1 => 
+          array (
+            'name' => 'receipt_status',
+            'studio' => 'visible',
+            'label' => 'LBL_RECEIPT_STATUS',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'b_invoice_b_receipt_name',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+?>

@@ -1,0 +1,23 @@
+<?php
+$module_name = 'B_List';
+$listViewDefs [$module_name] = 
+array (
+  'LIST_PRODUCT' => 
+  array (
+    'type' => 'relate',
+    'studio' => 'visible',
+    'label' => 'LBL_LIST_PRODUCT',
+    'id' => 'B_PRODUCT_ID_C',
+    'link' => true,
+    'width' => '10%',
+    'default' => true,
+  ),
+  'LIST_PRODUCT_QUANTITY' => 
+  array (
+    'type' => 'int',
+    'label' => 'LBL_LIST_PRODUCT_QUANTITY',
+    'width' => '10%',
+    'default' => true,
+  ),
+);
+?>
